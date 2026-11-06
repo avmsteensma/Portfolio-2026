@@ -6,8 +6,15 @@ The project is currently in the works, I will update the TODO while I work
 
 ### TODO
 - ~~Hero~~
-- Projects
+- ~~Projects~~
     - ~~Create cards~~
-    - Create database
-    - Populate database
+- ~~About~~
+
+#### Mobile responsiveness
+- Hero
+- ~~Projects~~
 - About
+
+#### Content
+- Create Database
+- Populate database with Projects
