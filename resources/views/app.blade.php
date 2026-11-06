@@ -34,6 +34,16 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+        <meta name="description" content="Fullstack web development student building with Laravel and React.">
+
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="{{ config('app.name') }}">
+        <meta property="og:title" content="{{ config('app.name') }} — Portfolio">
+        <meta property="og:description" content="Fullstack web development student building with Laravel and React.">
+        <meta property="og:url" content="{{ url()->current() }}">
+        <meta property="og:image" content="{{ asset('img/OG-image.png') }}">
+        <meta name="twitter:card" content="summary">
+
         @fonts
 
         @viteReactRefresh
