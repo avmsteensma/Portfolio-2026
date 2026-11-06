@@ -37,13 +37,12 @@ const projects: Project[] = [
 export default function Home() {
     return (
         <>
-            <Head title="Home" />
+            <Head title="Portfolio" />
             <main className="w-full">
-                <section className="hero relative p-10 h-screen w-full bg-(image:--image-hero) bg-cover bg-center flex items-center">
-                    <div className="flex flex-col gap-2 relative top-30">
-                        <h1 className="text-header-1">Hi, I’m Sander</h1>
-                        <h3 className="text-header-3">I’m a web developer <br/>
-                        based in Groningen</h3>
+                <section className="flex items-center sm:justify-start justify-center relative sm:p-10 h-screen w-full bg-(image:--image-hero) bg-cover bg-center">
+                    <div className="flex flex-col sm:items-start items-center sm:text-start text-center gap-2 relative top-30">
+                        <h1 className="sm:text-header-1 text-header-2">Hi, I’m Sander</h1>
+                        <h3 className="sm:text-header-3 text-header-4">I’m a web developer <br/> based in Groningen</h3>
                         <div className="py-5">
                             <Socials/>
                         </div>
